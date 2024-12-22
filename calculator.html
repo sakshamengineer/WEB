@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta name="viewport" content="width=500px , initial-scale=1.0">
+<title>CALCULATOR</title>
+<link href='calculator.css' rel='stylesheet'>
+</head>
+<body>
+<div class="anything">
+<form name="calculator">
+<div class='c' ><input type="text" class='j' placeholder="0" name="ans" value=""></div>
+<div class='e'><input type="reset"  value ="AC"class="a" >
+<input type="button" value ="^" class="a" onclick="ans.value +='**'">
+<input type="button" value ="%" class="a" onclick="ans.value +='/100'">
+<input type="button" value ="/" class="b" onclick="ans.value +='/'"></div>
+<div class='f'><input type="button" value ="7" onclick="ans.value +='7'">
+<input type="button" value ="8" onclick="ans.value +='8'">
+<input type="button" value ="9" onclick="ans.value +='9'">
+<input type="button" value ="x" class="b" onclick="ans.value +='*'"></div>
+<div class='g'><input type="button" value ="4" onclick="ans.value +='4'">
+<input type="button" value ="5" onclick="ans.value +='5'">
+<input type="button" value ="6" onclick="ans.value +='6'">
+<input type="button" value ="-" class="b" onclick="ans.value +='-'"></div>
+<div class='h'><input type="button" value ="1" onclick="ans.value +='1'">
+<input type="button" value ="2" onclick="ans.value +='2'">
+<input type="button" value ="3" onclick="ans.value +='3'">
+<input type="button" value ="+" class="b" onclick="ans.value +='+'"></div>
+<div class='i'><input type="button" value ="0" class="d" onclick="ans.value +='0'">
+<input type="button" value ="." onclick="ans.value +='.'">
+<input type="button" value ="=" class="b" onclick="ans.value=eval(ans.value)"></div>
+</form>
+</div>
+</body>
+</html>
