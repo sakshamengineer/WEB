@@ -1,0 +1,78 @@
+body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    background-image: url('https://instasize.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fmunkee%2Fimage%2Fupload%2Fv1675384712%2Finstasize-website%2Flearn%2Finstagram-logo-abstract-swirl.webp&w=3840&q=75');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+fieldset.ab {
+    height: 340px;
+    width: 256px;
+    border: ridge;
+}
+fieldset{
+    background-color: aliceblue;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-style:italic
+}
+.a {
+    text-align: center;
+    margin: 12px;
+}
+.b {
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 13px;
+    opacity: .7;
+}
+input {
+    margin: 3px;
+    display: flex;
+    width: -webkit-fill-available;
+    height: 27px;
+}
+button {
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-weight: 700;
+    width: -webkit-fill-available;
+    border-radius: 6px;
+    height: 30px;
+}
+legend {
+    text-align: center;
+    color: gray;
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
+    font-family: monospace;
+}
+.d {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+span{
+    margin: 9px;
+}
+div{
+    text-align: center;
+}
+.e {
+    text-align: center;
+}
+img {
+    position: relative;
+    bottom: -4px;
+}
