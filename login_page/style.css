@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+fieldset {
+    width: 30em;
+    height: 25em;
+    border-radius: 36px;
+    overflow: auto;
+    padding: 0px;
+    background-color: rgb(72 66 66 / 22%);
+    margin: 0px 1rem;
+}
+input{ 
+    border-style: none;
+    border-bottom: 2px solid white;
+    margin: 8px;
+    height: 1.3rem;
+    background-color: transparent;
+    outline: none;
+    font:icon;
+    color:beige;
+    
+}
+button{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 38px;
+    border-style: none;
+    border-bottom: 3px solid black;
+    font-size: medium;
+    text-align: center;
+}
+input::-webkit-input-placeholder{
+    font-size: medium;
+    color: rgb(211, 252, 252);
+}
+a{
+    color: slategray;
+}
